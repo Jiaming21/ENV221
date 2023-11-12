@@ -1,0 +1,10 @@
+1. Descriptive statics: 不同的factor的分布在diabetes与non-diabetes，对每个特征看柱状图；t-test看显著性差异
+
+2. SVM选出最高贡献的特征
+
+<使用数据集diabetes>
+RQ1: 对每个factor作box plot（分两个box plot，一个为diabete，一个为non-diabete）看distribution的分布差异（mean，range）
+做T-test（2 tail, 双样本等方差假设） 看mean差异是否显著
+RQ2: 看哪个column的factor对判断是否为diabete的影响因素最大（用machine learning 来算出每个factor的影响因素，用柱状图可视化，选择最有影响(影响因素最大)的factor）
+ 
+RQ3: 看除了已知的血糖含量可判断是否糖尿病外，用假设检验判断其他对判断糖尿病有贡献的因素是否是significant
